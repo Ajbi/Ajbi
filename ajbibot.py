@@ -22,5 +22,7 @@ def merr_cmimin(symbol="BTCUSDT"):
     return f"💹 Çmimi aktual i {symbol} është: {price}"
 
 # Test sinjal për ETHUSDT
-mesazhi = merr_cmimin("ETHUSDT")
-dergo_mesazh(mesazhi)
+if __name__ == "__main__":
+    mesazhi = merr_cmimin("ETHUSDT")
+    dergo_mesazht(mesazhi)
+
